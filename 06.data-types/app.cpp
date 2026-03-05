@@ -10,6 +10,13 @@ int main () {
     bool myBoolean = true;       // Boolean
     string myText = "Hello";     // String
 
+
+    // auto x = 5; // like typescript any type. The type of x will be automatically determined by the value assigned to it. In this case, x will be of type int.
+    auto x = 5; // x is now an int
+    x = 10;     // OK - still an int
+    x = 9.99;   // Error - can't assign a double to an int
+
+    
     /**
      * NOTE: **float vs. double**
      * The precision of a floating point value indicates how many digits the value can have after the decimal point.
