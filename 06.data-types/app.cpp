@@ -11,8 +11,10 @@ int main () {
     string myText = "Hello";     // String
 
     /**
-     * NOTE: float vs. double
-     * The precision of a floating point value indicates how many digits the value can have after the decimal point. The precision of float is only six or seven decimal digits, while double variables have a precision of about 15 digits. Therefore it is safer to use double for most calculations.
+     * NOTE: **float vs. double**
+     * The precision of a floating point value indicates how many digits the value can have after the decimal point.
+     * The precision of float is only **six or seven decimal digits**, while double variables have a precision of about **15 digits**. 
+     * Therefore it is safer to use double for most calculations.
     */
 
     // boolean	-> 1 byte	-> Stores true or false values
