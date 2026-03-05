@@ -13,7 +13,14 @@ int main() {
 
 
     // print number 
-    cout << 3;
+    cout << 3 << "\n";
+    // create blank line
+    cout << "\n\n";
+    cout << 2 * 5 << "\n";
+
+    // anather way to print new line
+    cout << "Hello World!" << endl;
+    cout << 2 * 5;
 
     return 0;
 }
