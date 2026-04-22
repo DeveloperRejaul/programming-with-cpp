@@ -4,7 +4,7 @@
   "description": "```bash sudo apt update sudo apt install build-essential gcc --version ```",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js 32.map/app.cpp"
+    "start": "node index.js 33.algorithms/app.cpp"
   },
   "repository": {
     "type": "git",
